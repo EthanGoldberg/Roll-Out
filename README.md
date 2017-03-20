@@ -2,16 +2,16 @@
 ## Information
 Based on the project I implemented as an intern at the Accenture Tech Labs in San Jose.  For more information, please read my post [here](https://medium.com/@emgoldberg1/autobots-roll-iot-80a77c099a20).
 
-####Project Concept: 
+#### Project Concept: 
 A user picks a set of locations to visit, and a fleet of cars dispatch to every location in that set.
 
-####Basic Required Utilities:
+#### Basic Required Utilities:
 * ELEGO Robot Cars (Arduino-based)
 * Linux gateway
 * Poster board
 * Wide black tape (should be at least 2” width)
 
-####Included Files:
+#### Included Files:
 * **pilot.ino** – The very bottom of the stack.  Controls Arduino I/O to define basic movements and sensor functions.  Utilizes these basic actions to establish consistent discrete steps.
 * **mapmaker.py** – Creates the graph to be used for pathfinding.  Translates input task locations to their corresponding states.
 * **comms.py** – Handles programmatic communication and the setup of serial connections with devices.
